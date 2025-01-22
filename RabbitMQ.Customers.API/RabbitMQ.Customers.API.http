@@ -1,0 +1,13 @@
+@RabbitMQ.Customers.API_HostAddress = https://localhost:7019
+
+
+POST {{RabbitMQ.Customers.API_HostAddress}}/api/customer
+Content-Type: application/json
+
+{
+  "id": 1,
+  "fullName": "John Doe",
+  "birthDate": "1980-01-01"
+}
+
+###
