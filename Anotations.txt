@@ -94,3 +94,14 @@
 5 - Além disso, o padrão Publish-Subscribe ajuda a evitar dependências fortes entre os objetos, pois eles não precisam conhecer diretamente uns aos outros, resultando em menor acoplamento entre os componentes do sistema.
 6 - O padrão Pub-Sub é implementado com a utilização de um mediador, que é responsável por gerenciar a publicação de mensagens e a inscrição de objetos para receber notificações.
 7 - Ele pode ser implementado de várias maneiras, como por exemplo, utilização de u Message Broker como o RabbitMQ.
+
+=================== MassTransit ===================
+
+1 - É uma biblioteca de mensagens para .NET, que oferece uma interface simplificada e integrada para lidar com sistemas de mensagens.
+2 - MassTransit fornece uma camada de abstração sobre sistemas de mensagens, permitindo trabalhar com objetos e métodos de alto nível em seu código, sem precisar se preocupar com os detalhes de baixo nível.
+3 - Tem suporte ao RabbitMQ, Azure Service Bus, Amazon SQS. 
+4 - Principais recursos:
+    - Interface de alto nível: Ao oferecer abstrações e convenções em cima do RabbitMQ, assim como o EasyNetQ, se torna fácil de publicar mensagens entre serviços, além de se inscrever para receber mensagens.
+    - Serialização e desserialização de mensagens: Realiza a serialização e desserialização de mensagens automaticamente.
+    - Compatilidade: É compatível com vários provedores de mensgens, como o RabbitMQ e Azure Service Bus, o que lhe dá flexibilidade para escolher o mais adequado para o seu cenário.
+    - Gerenciamento de erros: Lida de forma automática com uma variedade de erros, incluindo suporte para reenvio e agendamento de mensagens.

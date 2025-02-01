@@ -1,7 +1,8 @@
 using EasyNetQ.Customer.API.Bus;
+using MessagingEvents.Shared;
 using Microsoft.AspNetCore.Mvc;
 
-namespace RabbitMQ.Customers.API.Controllers;
+namespace EasyNetQ.Customer.API.Controllers;
 [ApiController]
 [Route("api/[controller]")]
 public class CustomerController(IBusService busService) : ControllerBase

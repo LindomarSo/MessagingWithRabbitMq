@@ -1,6 +1,5 @@
-﻿
-using EasyNetQ.Marketing.API.Models;
-using EasyNetQ.Marketing.API.Services;
+﻿using EasyNetQ.Marketing.API.Services;
+using MessagingEvents.Shared;
 using Newtonsoft.Json;
 
 namespace EasyNetQ.Marketing.API.Subscribers;

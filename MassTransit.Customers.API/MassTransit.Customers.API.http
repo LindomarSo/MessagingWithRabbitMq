@@ -1,0 +1,17 @@
+@MassTransit.Customers.API_HostAddress = https://localhost:7158
+
+GET {{MassTransit.Customers.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{MassTransit.Customers.API_HostAddress}}/api/customers
+Content-Type: application/json
+
+{
+  "id": 1,
+  "fullName": "John Doe",
+  "birthDate": "1980-01-01"
+}
+
+###

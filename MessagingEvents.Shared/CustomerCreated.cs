@@ -1,4 +1,4 @@
-namespace RabbitMQ.Customers.API;
+namespace MessagingEvents.Shared;
 
 public class CustomerCreated
 {
